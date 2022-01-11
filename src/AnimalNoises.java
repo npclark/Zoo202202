@@ -1,4 +1,5 @@
 import model.Cat;
+import model.Dog;
 
 public class AnimalNoises {
 	
@@ -9,8 +10,14 @@ public class AnimalNoises {
 		Cat garfield = new Cat();
 		System.out.println(garfield.speak());
 		
+		Cat chesterCheetah = new Cat();
+		Cat simba = new Cat();
+		Cat milo = new Cat();
 		
+		System.out.println(simba.speak());
 		
+		Dog brian = new Dog();
+		System.out.println(brian.speak());
 
 	}
 
