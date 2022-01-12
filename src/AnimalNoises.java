@@ -1,5 +1,7 @@
 import model.Cat;
 import model.Nuthatch;
+import model.Dog;
+import model.Turkey;
 
 public class AnimalNoises {
 	
@@ -12,8 +14,12 @@ public class AnimalNoises {
 		
 		Nuthatch noona = new Nuthatch();
 		System.out.println(noona.speak());
+    
+		Dog brian = new Dog();
+		System.out.println(brian.speak());
 		
-		
+		Turkey tom = new Turkey();
+		System.out.println(tom.speak());
 
 	}
 
