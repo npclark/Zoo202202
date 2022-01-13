@@ -2,6 +2,7 @@ import model.Cat;
 import model.Nuthatch;
 import model.Dog;
 import model.Turkey;
+import model.Fox;
 
 public class AnimalNoises {
 	
@@ -20,7 +21,9 @@ public class AnimalNoises {
 		
 		Turkey tom = new Turkey();
 		System.out.println(tom.speak());
-
+		
+		Fox tod = new Fox();
+		System.out.println(tod.speak());
 	}
 
 }
