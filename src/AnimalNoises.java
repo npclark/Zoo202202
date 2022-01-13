@@ -3,6 +3,8 @@ import model.Nuthatch;
 import model.Dog;
 import model.Turkey;
 import model.Fox;
+import model.Bat;
+//Why aren't we just using import model.*?
 
 public class AnimalNoises {
 	
@@ -24,6 +26,9 @@ public class AnimalNoises {
 		
 		Fox tod = new Fox();
 		System.out.println(tod.speak());
+		
+		Bat zubat = new Bat();
+		System.out.println(zubat.makeNoise());
 	}
 
 }
