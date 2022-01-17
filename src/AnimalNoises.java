@@ -6,7 +6,7 @@ import model.Fish;
 import model.Turkey;
 import model.Fox;
 import model.Bat;
-//Why aren't we just using import model.*?
+import model.Blobfish;
 
 public class AnimalNoises {
 	
@@ -37,6 +37,10 @@ public class AnimalNoises {
 		
 		Fish craoker = new Fish();
 		System.out.println(craoker.makeNoise());
+
+		Blobfish blobby = new Blobfish();
+		System.out.println(blobby.makeNoise());
+
 	}
 
 }
