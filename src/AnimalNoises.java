@@ -2,6 +2,7 @@ import model.Cat;
 import model.Nuthatch;
 import model.Snake;
 import model.Dog;
+import model.Ferret;
 import model.Turkey;
 import model.Fox;
 import model.Bat;
@@ -33,6 +34,9 @@ public class AnimalNoises {
 		
 		Snake python = new Snake();
 		System.out.println(python.makeNoise());
+		
+		Ferret cuddles = new Ferret();
+		System.out.println(cuddles.speak());
 	}
 
 }
