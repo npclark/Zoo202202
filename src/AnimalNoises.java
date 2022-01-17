@@ -6,6 +6,7 @@ import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
+import model.Goat;
 import model.Bat;
 import model.Blobfish;
 
@@ -35,6 +36,9 @@ public class AnimalNoises {
 		
 		Snake python = new Snake();
 		System.out.println(python.makeNoise());
+		
+		Goat jeff = new Goat();
+		System.out.println(jeff.makeNoise());
 		
 		Ferret cuddles = new Ferret();
 		System.out.println(cuddles.speak());
