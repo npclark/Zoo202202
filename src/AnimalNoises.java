@@ -4,6 +4,7 @@ import model.Snake;
 import model.Dog;
 import model.Turkey;
 import model.Fox;
+import model.Goat;
 import model.Bat;
 //Why aren't we just using import model.*?
 
@@ -33,6 +34,10 @@ public class AnimalNoises {
 		
 		Snake python = new Snake();
 		System.out.println(python.makeNoise());
+		
+		Goat jeff = new Goat();
+		System.out.println(jeff.makeNoise());
+		
 	}
 
 }
