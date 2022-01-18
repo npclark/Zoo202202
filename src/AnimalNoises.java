@@ -8,6 +8,7 @@ import model.Fish;
 import model.Turkey;
 import model.Fox;
 import model.Goat;
+import model.Monkey;
 import model.Bat;
 import model.Blobfish;
 
@@ -52,6 +53,9 @@ public class AnimalNoises {
 		
 		Sheep sheep = new Sheep();
 		System.out.println(sheep.makeNoise());
+		
+		Monkey amp = new Monkey();
+		System.out.println(amp.makeNoise());
 
 	}
 
