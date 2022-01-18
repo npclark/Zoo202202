@@ -1,5 +1,6 @@
 import model.Cat;
 import model.Nuthatch;
+import model.Sheep;
 import model.Snake;
 import model.Dog;
 import model.Ferret;
@@ -48,6 +49,9 @@ public class AnimalNoises {
 
 		Blobfish blobby = new Blobfish();
 		System.out.println(blobby.makeNoise());
+		
+		Sheep sheep = new Sheep();
+		System.out.println(sheep.makeNoise());
 
 	}
 
