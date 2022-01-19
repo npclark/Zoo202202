@@ -11,6 +11,7 @@ import model.Fox;
 import model.Goat;
 import model.Monkey;
 import model.Bat;
+import model.Bear;
 import model.Blobfish;
 
 public class AnimalNoises {
@@ -37,6 +38,9 @@ public class AnimalNoises {
 		Bat zubat = new Bat();
 		System.out.println(zubat.makeNoise());
 		
+		Bear glass = new Bear();
+		System.out.println(glass.makeNoise());
+
 		Snake python = new Snake();
 		System.out.println(python.makeNoise());
 		
@@ -60,6 +64,7 @@ public class AnimalNoises {
 		
 		Hippo hip = new Hippo();
 		System.out.println(hip.makeNoise());
+
 
 	}
 
