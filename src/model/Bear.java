@@ -13,6 +13,9 @@ public class Bear {
 	
 	public Bear() {
 		super();
+		this.breed = "American Black Bear";
+		this.weight = 176;
+		this.species = "americanus";
 	}
 	
 	public Bear(String breed, int weight, String species) {
@@ -45,15 +48,15 @@ public class Bear {
 		String noise = null;
 		
 		if(this.weight >= 400) {
-			noise = "growl";
+			noise = "Growl";
 		}
 		else if(this.weight <= 200){
-			noise = "huff";
+			noise = "Huff";
 		}
 		else {
-			noise = "woof";
+			noise = "Woof";
 		}
-		return "The " + breed + " goes " + noise;
+		return noise;
 	}
 	
 	@Override
