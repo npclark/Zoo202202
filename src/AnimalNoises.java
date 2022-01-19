@@ -1,11 +1,18 @@
 import model.Cat;
+import model.Hippo;
 import model.Nuthatch;
+import model.Sheep;
+import model.Snake;
 import model.Dog;
+import model.Ferret;
+import model.Fish;
 import model.Turkey;
 import model.Fox;
+import model.Goat;
+import model.Monkey;
 import model.Bat;
 import model.Bear;
-//Why aren't we just using import model.*?
+import model.Blobfish;
 
 public class AnimalNoises {
 	
@@ -33,6 +40,32 @@ public class AnimalNoises {
 		
 		Bear glass = new Bear();
 		System.out.println(glass.makeNoise());
+
+		Snake python = new Snake();
+		System.out.println(python.makeNoise());
+		
+		Goat jeff = new Goat();
+		System.out.println(jeff.makeNoise());
+		
+		Ferret cuddles = new Ferret();
+		System.out.println(cuddles.speak());
+
+		Fish craoker = new Fish();
+		System.out.println(craoker.makeNoise());
+
+		Blobfish blobby = new Blobfish();
+		System.out.println(blobby.makeNoise());
+		
+		Sheep sheep = new Sheep();
+		System.out.println(sheep.makeNoise());
+		
+		Monkey amp = new Monkey();
+		System.out.println(amp.makeNoise());
+		
+		Hippo hip = new Hippo();
+		System.out.println(hip.makeNoise());
+
+
 	}
 
 }
