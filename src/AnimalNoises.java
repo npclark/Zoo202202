@@ -1,6 +1,7 @@
 import model.Cat;
 import model.Hippo;
 import model.Nuthatch;
+import model.Pig;
 import model.Sheep;
 import model.Snake;
 import model.Dog;
@@ -14,6 +15,8 @@ import model.Bat;
 import model.Bear;
 import model.Blobfish;
 import model.Camel;
+import model.Owl;
+import model.Cow;
 
 public class AnimalNoises {
 	
@@ -68,6 +71,16 @@ public class AnimalNoises {
 		
 		Camel camel = new Camel();
 		System.out.println(camel.speak());
+
+		Cow theCow = new Cow();
+		System.out.println(theCow.makeNoise());
+
+		Pig charlotte = new Pig();
+		System.out.println(charlotte.speak());
+
+		Owl soren = new Owl();
+		System.out.println(soren.speak());
+
 
 	}
 
