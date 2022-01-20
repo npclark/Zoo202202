@@ -13,6 +13,7 @@ import model.Monkey;
 import model.Bat;
 import model.Bear;
 import model.Blobfish;
+import model.Camel;
 
 public class AnimalNoises {
 	
@@ -64,7 +65,9 @@ public class AnimalNoises {
 		
 		Hippo hip = new Hippo();
 		System.out.println(hip.makeNoise());
-
+		
+		Camel camel = new Camel();
+		System.out.println(camel.speak());
 
 	}
 
