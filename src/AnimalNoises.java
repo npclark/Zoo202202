@@ -1,6 +1,7 @@
 import model.Cat;
 import model.Hippo;
 import model.Nuthatch;
+import model.Pig;
 import model.Sheep;
 import model.Snake;
 import model.Dog;
@@ -64,6 +65,9 @@ public class AnimalNoises {
 		
 		Hippo hip = new Hippo();
 		System.out.println(hip.makeNoise());
+		
+		Pig charlotte = new Pig();
+		System.out.println(charlotte.speak());
 
 
 	}
