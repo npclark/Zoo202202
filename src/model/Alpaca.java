@@ -18,12 +18,31 @@ public class Alpaca {
 		this.isAlone = isAlone;
 		this.name = name;
 	}
+	//getters and setters
+	public void setCoatColor() {
+		this.coatColor = coatColor;
+	}
+	public String getCoatColor() {
+		return coatColor;
+	}
+	
+	public void setIsAlone() {
+		this.isAlone = isAlone;
+	}
+	public String getIsAlone() {
+		return isAlone;
+	}
+	
+	public void setName() {
+		this.name = name;
+	}
+	public String getName() {
+		return name;
+	}
+	//make noise method
 	public String makeNoise() {	
 		return "Humm";
 	}
-	
-	
-	
 	
 		
 }

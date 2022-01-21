@@ -64,6 +64,9 @@ public class AnimalNoises {
 		
 		Hippo hip = new Hippo();
 		System.out.println(hip.makeNoise());
+		
+		Alpaca joe = new Alpaca();
+		System.out.println(joe.makeNoise());
 
 
 	}
