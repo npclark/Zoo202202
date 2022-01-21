@@ -1,6 +1,7 @@
 import model.Cat;
 import model.Hippo;
 import model.Nuthatch;
+import model.Pig;
 import model.Sheep;
 import model.Snake;
 import model.Dog;
@@ -8,6 +9,7 @@ import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
+import model.Frog;
 import model.Goat;
 import model.Monkey;
 import model.Bat;
@@ -65,6 +67,15 @@ public class AnimalNoises {
 		
 		Hippo hip = new Hippo();
 		System.out.println(hip.makeNoise());
+		
+		Camel camel = new Camel();
+		System.out.println(camel.speak());
+
+		Cow theCow = new Cow();
+		System.out.println(theCow.makeNoise());
+
+		Pig charlotte = new Pig();
+		System.out.println(charlotte.speak());
 
 		Turtle zach = new Turtle();
 		System.out.println(zach.makeNoise());
