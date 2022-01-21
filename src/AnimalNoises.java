@@ -81,6 +81,9 @@ public class AnimalNoises {
 		Owl soren = new Owl();
 		System.out.println(soren.speak());
 
+		Hippo harry = new Hippo();
+		System.out.println(harry.makeNoise());
+
 
 	}
 
