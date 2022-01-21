@@ -9,7 +9,6 @@ import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
-import model.Frog;
 import model.Goat;
 import model.Monkey;
 import model.Bat;
