@@ -18,6 +18,7 @@ import model.Blobfish;
 import model.Camel;
 import model.Owl;
 import model.Cow;
+import model.Rhino;
 
 public class AnimalNoises {
 	
@@ -84,6 +85,9 @@ public class AnimalNoises {
 
 		Frog larry = new Frog();
 		System.out.println(larry.makeNoise());
+		
+		Rhino spike = new Rhino();
+		System.out.println(spike.speak());
 	}
 
 }
