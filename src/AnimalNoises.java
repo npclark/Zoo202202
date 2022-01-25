@@ -5,20 +5,18 @@ import model.Pig;
 import model.Sheep;
 import model.Snake;
 import model.Tortoise;
+import model.Tiger;
 import model.Dog;
 import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
-import model.Frog;
 import model.Goat;
 import model.Monkey;
 import model.Bat;
 import model.Bear;
 import model.Blobfish;
-import model.Camel;
-import model.Owl;
-import model.Cow;
+import model.Turtle;;
 
 public class AnimalNoises {
 	
@@ -71,6 +69,9 @@ public class AnimalNoises {
 		Hippo hip = new Hippo();
 		System.out.println(hip.makeNoise());
 		
+		Alpaca joe = new Alpaca();
+		System.out.println(joe.makeNoise());
+
 		Camel camel = new Camel();
 		System.out.println(camel.speak());
 
@@ -79,15 +80,25 @@ public class AnimalNoises {
 
 		Pig charlotte = new Pig();
 		System.out.println(charlotte.speak());
-
+    
+		Turtle zach = new Turtle();
+		System.out.println(zach.makeNoise());
+		
 		Owl soren = new Owl();
 		System.out.println(soren.speak());
+
+		Hippo harry = new Hippo();
+		System.out.println(harry.makeNoise());
+
+		Tiger tony = new Tiger();
+		System.out.println(tony.makeNoise());
 
 		Frog larry = new Frog();
 		System.out.println(larry.makeNoise());
 		
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
+
 	}
 
 }
