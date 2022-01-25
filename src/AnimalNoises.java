@@ -4,6 +4,7 @@ import model.Nuthatch;
 import model.Pig;
 import model.Sheep;
 import model.Snake;
+import model.Tortoise;
 import model.Tiger;
 import model.Dog;
 import model.Ferret;
@@ -94,6 +95,9 @@ public class AnimalNoises {
 
 		Frog larry = new Frog();
 		System.out.println(larry.makeNoise());
+		
+		Tortoise tonka = new Tortoise();
+		System.out.println(tonka.makeNoise());
 
 	}
 
