@@ -4,6 +4,7 @@ import model.Nuthatch;
 import model.Pig;
 import model.Sheep;
 import model.Snake;
+import model.Tiger;
 import model.Dog;
 import model.Ferret;
 import model.Fish;
@@ -82,8 +83,15 @@ public class AnimalNoises {
 		Owl soren = new Owl();
 		System.out.println(soren.speak());
 
+		Hippo harry = new Hippo();
+		System.out.println(harry.makeNoise());
+
+		Tiger tony = new Tiger();
+		System.out.println(tony.makeNoise());
+
 		Frog larry = new Frog();
 		System.out.println(larry.makeNoise());
+
 	}
 
 }
