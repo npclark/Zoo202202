@@ -10,6 +10,7 @@ import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
+import model.Frog;
 import model.Goat;
 import model.Monkey;
 import model.Bat;
@@ -88,6 +89,8 @@ public class AnimalNoises {
 		Tiger tony = new Tiger();
 		System.out.println(tony.makeNoise());
 
+		Frog larry = new Frog();
+		System.out.println(larry.makeNoise());
 
 	}
 
