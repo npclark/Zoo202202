@@ -1,18 +1,24 @@
 import model.Cat;
 import model.Hippo;
 import model.Nuthatch;
+import model.Pig;
 import model.Sheep;
 import model.Snake;
+import model.Tiger;
 import model.Dog;
 import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
+import model.Frog;
 import model.Goat;
 import model.Monkey;
 import model.Bat;
 import model.Bear;
 import model.Blobfish;
+import model.Camel;
+import model.Owl;
+import model.Cow;
 
 public class AnimalNoises {
 	
@@ -68,6 +74,26 @@ public class AnimalNoises {
 		Alpaca joe = new Alpaca();
 		System.out.println(joe.makeNoise());
 
+		Camel camel = new Camel();
+		System.out.println(camel.speak());
+
+		Cow theCow = new Cow();
+		System.out.println(theCow.makeNoise());
+
+		Pig charlotte = new Pig();
+		System.out.println(charlotte.speak());
+
+		Owl soren = new Owl();
+		System.out.println(soren.speak());
+
+		Hippo harry = new Hippo();
+		System.out.println(harry.makeNoise());
+
+		Tiger tony = new Tiger();
+		System.out.println(tony.makeNoise());
+
+		Frog larry = new Frog();
+		System.out.println(larry.makeNoise());
 
 	}
 
