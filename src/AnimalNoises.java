@@ -10,15 +10,12 @@ import model.Ferret;
 import model.Fish;
 import model.Turkey;
 import model.Fox;
-import model.Frog;
 import model.Goat;
 import model.Monkey;
 import model.Bat;
 import model.Bear;
 import model.Blobfish;
-import model.Camel;
-import model.Owl;
-import model.Cow;
+import model.Turtle;;
 
 public class AnimalNoises {
 	
@@ -82,7 +79,10 @@ public class AnimalNoises {
 
 		Pig charlotte = new Pig();
 		System.out.println(charlotte.speak());
-
+    
+		Turtle zach = new Turtle();
+		System.out.println(zach.makeNoise());
+		
 		Owl soren = new Owl();
 		System.out.println(soren.speak());
 
