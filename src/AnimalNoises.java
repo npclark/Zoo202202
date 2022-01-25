@@ -16,7 +16,11 @@ import model.Monkey;
 import model.Bat;
 import model.Bear;
 import model.Blobfish;
-import model.Turtle;;
+import model.Camel;
+import model.Owl;
+import model.Cow;
+import model.Rhino;
+import model.Turtle;
 
 public class AnimalNoises {
 	
@@ -96,6 +100,9 @@ public class AnimalNoises {
 		Frog larry = new Frog();
 		System.out.println(larry.makeNoise());
 		
+		Rhino spike = new Rhino();
+		System.out.println(spike.speak());
+
 		Tortoise tonka = new Tortoise();
 		System.out.println(tonka.makeNoise());
 
